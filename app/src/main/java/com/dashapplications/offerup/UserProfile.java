@@ -1,5 +1,6 @@
 package com.dashapplications.offerup;
 
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapShader;
 import android.graphics.Canvas;
@@ -49,8 +50,8 @@ public class UserProfile extends AppCompatActivity {
         gridview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View v,
                                     int position, long id) {
-                Toast.makeText(getApplicationContext(), "" + position,
-                        Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(UserProfile.this, Demo.class);
+                startActivity(intent);
             }
         });
 
