@@ -1,9 +1,33 @@
 <resources>
-    <string name="app_name">Offer Up</string>
+    <string name="app_name">OfferUp</string>
     <string name="action_settings">Settings</string>
-    <string name="transition_photo">transition_photo</string>
-    <string name="title_activity_nav">NavActivity</string>
+    <string name="login_logout">Login / Logout</string>
+    <string name="title_activity_authentication">Login / Logout</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="sign_in">Sign In</string>
+    <string name="textview">TextView</string>
+    <string name="password_required">Password (Required)</string>
+    <string name="email">Email</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="offerup">OfferUp</string>
+    <string name="title_activity_registration">Registration</string>
+    <string name="name">(Name)</string>
+    <string name="register">Register</string>
+    <string name="registration_password">Password...</string>
+    <string name="registration_email">Email...</string>
+    <string name="title_activity_navigation_drawer">OfferUp</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_user_profile">Profile</string>
+    <string name="android_studio">Android Studio</string>
+    <string name="google_sign_out">Google Sign Out</string>
+    <string name="google_sign_in">Google Sign-in</string>
+    <string name="google_in">Google In</string>
+    <string name="registration">Registration</string>
+    <string name="google_logout">Google Logout</string>
+    <string name="google_login">Google Login</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_google_in">Google Login </string>
 </resources>
